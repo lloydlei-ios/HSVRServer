@@ -1,0 +1,1 @@
+switchost dir
