@@ -101,7 +101,18 @@ G --> F
 - GET /switchhost/api/changehosts?id=xx&opened=on|off：切换启用状态；opened=on 写入系统 hosts 并刷新 DNS
 
 ## SwitchHost Demo 使用说明
+### 页面图片：
+- 首页 
+![home](./static/IMG-switchhost-1-home.jpg)
 
+- 编辑规则 
+![edit](./static/IMG-switchhost-2-edit.jpg)
+
+- 添加规则 
+![add](./static/IMG-switchhost-3-add.jpg)
+
+- 保存规则 
+![save](./static/IMG-switchhost-4-addsave.jpg)
 ### 页面入口：/switchhost
 ### 左侧列表：显示规则条目（系统 hosts 固定为 id=0）
 ### 交互说明：
@@ -132,3 +143,4 @@ G --> F
 
 
 MIT
+
