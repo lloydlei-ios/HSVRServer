@@ -17,13 +17,12 @@
 ```
 HVSRServer/
 ├── static/ # 静态资源目录
-│ ├── index.html
-│ └── switchhost.html
+│ └── index.html
 ├── views/ # 视图目录（可配置）
 │ ├── switchhost/
 │ │ ├── index.html # 中文页面
 │ │ ├── index_en.html # 英文页面
-│ │ └── indexzh.html # 中文页面（可选）
+│ │ └── index_zh.html # 中文页面（可选）
 │ ├── hello.html
 │ └── index.html
 ├── conf.ini # 运行配置
@@ -35,7 +34,7 @@ HVSRServer/
 ├── hsvrresp.py # 响应输出（静态/HTML/JSON/重定向）
 ├── hsvrview.py # 模板渲染工具
 ├── hsvrbase.py # 单例配置、日志转发、耗时装饰器等
-├── hsvrsample_actions.py # actions 示例
+├── hsvr_sample_actions.py # actions 示例
 ├── hsvr_sample_filters.py # filters 示例
 ├── hsvr_sample_views.py # views 示例
 └── hsvr_switchhost.py # SwitchHost Demo 模块
@@ -130,5 +129,6 @@ G --> F
 - 视图根目录优先使用 conf.ini 中配置，避免硬编码导致部署差异
 
 ## 许可证
+
 
 MIT
