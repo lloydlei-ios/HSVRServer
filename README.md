@@ -103,16 +103,16 @@ G --> F
 ## SwitchHost Demo 使用说明
 ### 页面图片：
 - 首页 
-![home](./static/IMG-switchhost-1-home.jpg)
+![home](https://github.com/lloydlei-ios/HSVRServer/blob/main/static/IMG-Switchhost-1-home.jpg)
 
 - 编辑规则 
-![edit](./static/IMG-switchhost-2-edit.jpg)
+![edit](https://github.com/lloydlei-ios/HSVRServer/blob/main/static/IMG-Switchhost-2-edit.jpg)
 
 - 添加规则 
-![add](./static/IMG-switchhost-3-add.jpg)
+![add](https://github.com/lloydlei-ios/HSVRServer/blob/main/static/IMG-Switchhost-3-add.jpg)
 
 - 保存规则 
-![save](./static/IMG-switchhost-4-addsave.jpg)
+![save](https://github.com/lloydlei-ios/HSVRServer/blob/main/static/IMG-Switchhost-4-addsave.jpg)
 ### 页面入口：/switchhost
 ### 左侧列表：显示规则条目（系统 hosts 固定为 id=0）
 ### 交互说明：
@@ -143,4 +143,5 @@ G --> F
 
 
 MIT
+
 
