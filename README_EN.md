@@ -14,18 +14,18 @@ A lightweight multithreaded HTTP server built on Python standard libraries `http
 
 ## Tree
 See project root structure in README (Chinese). Key modules:
-- [hsvrserver.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrserver.py): server wrapper and decorator entry
-- [hsvrdecrproc.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrdecrproc.py): decorator manager (actions/views/filters)
-- [hsvrdispatch.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrdispatch.py): URI dispatch to static/actions/views
-- [hsvrreq.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrreq.py): request parsing and uploads (chunked)
-- [hsvrresp.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrresp.py): responses (static/HTML/JSON/redirect)
-- [hsvrview.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrview.py): template rendering (replacement)
-- [hsvrbase.py](file://c:\GMM-GIT\MyPython\httpserver\hsvrbase.py): singleton config, logging redirect, elapsed decorator
-- [hsvr_switchhost.py](file://c:\GMM-GIT\MyPython\httpserver\hsvr_switchhost.py): SwitchHost demo
+- [hsvrserver.py](./HSVRServerhsvrserver.py): server wrapper and decorator entry
+- [hsvrdecrproc.py](./HSVRServerhsvrdecrproc.py): decorator manager (actions/views/filters)
+- [hsvrdispatch.py](./HSVRServerhsvrdispatch.py): URI dispatch to static/actions/views
+- [hsvrreq.py](./HSVRServerhsvrreq.py): request parsing and uploads (chunked)
+- [hsvrresp.py](./HSVRServerhsvrresp.py): responses (static/HTML/JSON/redirect)
+- [hsvrview.py](./HSVRServerhsvrview.py): template rendering (replacement)
+- [hsvrbase.py](./HSVRServerhsvrbase.py): singleton config, logging redirect, elapsed decorator
+- [hsvr_switchhost.py](./HSVRServerhsvr_switchhost.py): SwitchHost demo
 
 ## Quick Start
 - Python 3.8+
-- Edit [conf.ini](file://c:\GMM-GIT\MyPython\httpserver\conf.ini) if needed
+- Edit [conf.ini](./HSVRServerconf.ini) if needed
 - Run: python hsvrmain.py
 
 - Visit:
@@ -96,4 +96,5 @@ Frontend shows error dialog; check server response headers
 Views root prefer conf.ini configuration; avoid hard-coded paths
 
 ## License
+
 MIT
