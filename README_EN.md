@@ -14,18 +14,18 @@ A lightweight multithreaded HTTP server built on Python standard libraries `http
 
 ## Tree
 See project root structure in README (Chinese). Key modules:
-- [hsvrserver.py](./HSVRServer/hsvrserver.py): server wrapper and decorator entry
-- [hsvrdecrproc.py](./HSVRServer/hsvrdecrproc.py): decorator manager (actions/views/filters)
-- [hsvrdispatch.py](./HSVRServer/hsvrdispatch.py): URI dispatch to static/actions/views
-- [hsvrreq.py](./HSVRServer/hsvrreq.py): request parsing and uploads (chunked)
-- [hsvrresp.py](./HSVRServer/hsvrresp.py): responses (static/HTML/JSON/redirect)
-- [hsvrview.py](./HSVRServer/hsvrview.py): template rendering (replacement)
-- [hsvrbase.py](./HSVRServer/hsvrbase.py): singleton config, logging redirect, elapsed decorator
-- [hsvr_switchhost.py](./HSVRServer/hsvr_switchhost.py): SwitchHost demo
+- [hsvrserver.py](./hsvrserver.py): server wrapper and decorator entry
+- [hsvrdecrproc.py](./hsvrdecrproc.py): decorator manager (actions/views/filters)
+- [hsvrdispatch.py](./hsvrdispatch.py): URI dispatch to static/actions/views
+- [hsvrreq.py](./hsvrreq.py): request parsing and uploads (chunked)
+- [hsvrresp.py](./hsvrresp.py): responses (static/HTML/JSON/redirect)
+- [hsvrview.py](./hsvrview.py): template rendering (replacement)
+- [hsvrbase.py](./hsvrbase.py): singleton config, logging redirect, elapsed decorator
+- [hsvr_switchhost.py](./hsvr_switchhost.py): SwitchHost demo
 
 ## Quick Start
 - Python 3.8+
-- Edit [conf.ini](./HSVRServer/conf.ini) if needed
+- Edit [conf.ini](./conf.ini) if needed
 - Run: python hsvrmain.py
 
 - Visit:
@@ -98,4 +98,5 @@ Views root prefer conf.ini configuration; avoid hard-coded paths
 ## License
 
 MIT
+
 
